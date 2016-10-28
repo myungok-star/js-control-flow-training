@@ -7,20 +7,27 @@ var securityQuestions = [
   {question: "What year did you buy your first car?", expectedAnswer: "2016"}
 ]
 
-var userAnswer = "";
-var wrongUser= false; //How do I come up with this variable?
-
-for (var i=0; i < securityQuestions.length; i++){
-    userAnswer = prompt(securityQuestions[i].question);
-      if (userAnswer !== securityQuestions[i].expectedAnswer){
-          alert("Incorrect security quesiton response!");
-
-      wrongUser = true; //Why do we need this assignment?
-        break;
-      }
+//console.log(securityQuestions[0].question);
+for(var i = 0; i <= 4; i++) {
+  console.log("hello");
 
 }
 
-if (wrongUser) {
-  console.log("Stop!");
-}
+//
+// var userAnswer = "";
+// var wrongUser= false; //How do I come up with this variable?
+//
+// for (var i=0; i < securityQuestions.length; i++){
+//     userAnswer = prompt(securityQuestions[i].question);
+//       if (userAnswer !== securityQuestions[i].expectedAnswer){
+//           alert("Incorrect security quesiton response!");
+//
+//       wrongUser = true; //Why do we need this assignment?
+//         break;
+//       }
+//
+// }
+//
+// if (wrongUser) {
+//   console.log("Stop!");
+// }
